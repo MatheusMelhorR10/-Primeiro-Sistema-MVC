@@ -4,7 +4,7 @@ Projeto simples de uma biblioteca digital feito com Spring Boot e Thymeleaf.
 
 A aplicação apresenta uma tela inicial com opções para navegar por livros, autores, categorias, usuários e empréstimos.
 
-## Como rodar
+## Para rodar
 
 É necessário ter o Java 25 instalado.
 

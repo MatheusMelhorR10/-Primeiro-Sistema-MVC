@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <div class="container">
+        <header class="topo">
+            <h1>Biblioteca Digital</h1>
+        </header>
+
+        <nav class="menu">
+            <ul>
+                <li><a th:href="@{/livros}">Livros</a></li>
+                <li><a th:href="@{/livros/autores}">Autores</a></li>
+                <li><a th:href="@{/livros/categorias}">Categorias</a></li>
+                <li><a th:href="@{/livros/usuarios}">Usuários</a></li>
+                <li><a th:href="@{/livros/emprestimos}">Empréstimos</a></li>
+            </ul>
+        </nav>
+
+        <main class="conteudo">
+            <section class="card principal">
+                <h2>Seja Bem-vindo!</h2>
+                <p>Alugue ou compre livros, 10% off na primeira compra.</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
+
